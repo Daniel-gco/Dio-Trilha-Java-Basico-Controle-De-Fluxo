@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="challenge.swing.Contador">
+  <grid id="27dc6" binding="myPanel" layout-manager="GridLayoutManager" row-count="14" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="30" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="698" height="435"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3bc82" class="javax.swing.JButton" binding="btnCount">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Fazer contagem"/>
+        </properties>
+      </component>
+      <component id="306a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Primeiro parâmetro"/>
+        </properties>
+      </component>
+      <component id="de4b7" class="javax.swing.JSpinner" binding="spnParam1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="248" height="38"/>
+            <maximum-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20"/>
+        </properties>
+      </component>
+      <hspacer id="9f131">
+        <constraints>
+          <grid row="3" column="7" row-span="2" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="f2eda">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8f03c">
+        <constraints>
+          <grid row="13" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="6bea">
+        <constraints>
+          <grid row="11" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b7818" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Mensagem:"/>
+        </properties>
+      </component>
+      <component id="a1b63" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Segundo parâmetro"/>
+        </properties>
+      </component>
+      <component id="fff6f" class="javax.swing.JSpinner" binding="spnParam2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="248" height="38"/>
+            <maximum-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20"/>
+        </properties>
+      </component>
+      <scrollpane id="988b">
+        <constraints>
+          <grid row="7" column="0" row-span="4" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="250"/>
+            <maximum-size width="400" height="250"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6f8e" class="javax.swing.JList" binding="lstNumbers">
+            <constraints/>
+            <properties>
+              <font size="20"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="1118e" class="javax.swing.JLabel" binding="lblMSG">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5824996"/>
+          <font size="20" style="1"/>
+          <foreground color="-7202528"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="27d51">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="6" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="5fa50">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="6" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
